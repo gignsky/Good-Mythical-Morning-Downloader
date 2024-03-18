@@ -1,0 +1,23 @@
+sonarr:
+  api_key: 3c2b5d37a9c94ffbb4f845cbd0f50501
+  url: http://192.168.51.11:8989
+  show_id: 537
+# youtube:
+#   channel_id: UCXuqSBlHAE6Xw-yeJA0Tunw
+#   search_term: WAN
+# download_client:
+#   ansible_path: /home/gig/local_repos/WAN_downloader/ansible_files
+#   startup_command: "/home/gig/local_repos/WAN_downloader/.venv/bin/ansible-playbook startup.yml"
+#   shutdown_command: "/home/gig/local_repos/WAN_downloader/.venv/bin/ansible-playbook shutdown.yml"
+#   copy_command: "/home/gig/local_repos/WAN_downloader/.venv/bin/ansible-playbook script_mover.yml"
+#   remove_command: "/home/gig/local_repos/WAN_downloader/.venv/bin/ansible-playbook script_remover.yml"
+#   host: 192.168.51.47
+#   username: gig
+#   password: damnitcam
+#   download_dir: /home/gig/danger-fast/ytDL/WAN
+#   destination_dir: "/home/gig/vulcan/media/video/Youtube/LTT/The WAN Show (2013)"
+directories:
+  # download: <DOWNLOAD_DIR>
+  # final_dir: <FINAL_DIR>
+  saved_dir: /home/gig/danger-fast/ytDl/goodMythical
+  output_dir: /home/gig/danger-fast/ytDl/goodMythical_output
